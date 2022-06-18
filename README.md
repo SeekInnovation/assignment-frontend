@@ -1,7 +1,43 @@
-# Getting Started with Create React App
+# Learningsuite Frontend Assignment
+
+## Assignment instructions
+Your Assignment is to build a Kanban-Board, like in Trello where the user is able to drag and drop cards between lists (columns).
+
+This is a great UI example built in React & Material UI: [https://minimals.cc/dashboard/kanban](https://minimals.cc/dashboard/kanban)
+
+The given Example is just inspiration. You don't need to make the card clickable and you don't need to make it as pretty as the example.
+
+Code Clarity & Strucutre is more important in this assignment then the looks of the final UI.
+
+With this test we want to figure out how well you cope with a library that you are probably not familiar with and if you understand the basics of React & TypeScript.
+
+For drag and drop you shall use `react-beautiful-dnd` ([https://github.com/atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)) (it needs to be installed in this monorepo)
+
+<br/>
+
+## Requirements
+- Drag and drop (DND) is a must have
+- Add a new Card to a column
+- Drag a card to another column
+- Sorting cards via DND should also work
+- Structure the current state of the columns and cards so that the state is serializable as JSON (storing and loading is not required)
+
+<br/>
+
+## Not required
+- Deleting a Card is NOT required
+- Changing Card or Column title is NOT required
+- Showing images is a nice to have but is not required
+
+<br/>
+
+## Getting Started:
+
+First go to the project root and run `yarn` and `yarn start`.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Repo documentation
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,16 +64,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
